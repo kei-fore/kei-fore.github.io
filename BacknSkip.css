@@ -1,0 +1,18 @@
+input[type="button"]{
+  font-size: 15px;
+  font-family: FontAwesome;
+  display: inline-block;
+  text-decoration: none;
+  background: #f0f0f0;
+  color: #242424;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  line-height:1.5;
+  padding: 10px;
+}
+
+input[type="button"]:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}	
